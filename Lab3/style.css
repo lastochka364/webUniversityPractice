@@ -1,0 +1,66 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    background-color: #0E0024;
+}
+
+.block1 {
+  height: 300px;
+  width: 300px;
+  margin: 50px 520px;
+  border-style: ridge;
+  border-color: red;
+  border-width: 3px;
+  border-radius: 10px;
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+.block2 {
+  height: 500px;
+  width: 800px;
+  margin: 50px 300px;
+  border-left: 1px ridge red;
+  border-right: 3px ridge green;
+  border-bottom: 8px ridge black;
+  border-top: 4px ridge yellow;
+  border-radius: 10px;
+  color: white;
+  background-image: url("https://aboutspacejornal.net/wp-content/uploads/2017/03/ultra-hd-wallpapers-space-wallpapers-full-hd1-e1491112231358.jpg");
+}
+
+.block3 {
+  height: 550px;
+  width: 550px;
+  margin-left: 30%;
+  background-image: url("https://avatanplus.com/files/resources/original/57a61788b777115660cbee2f.jpg"), url("https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/16/b6/81/16b681b8-66ff-3560-ebc8-5d30211602ba/source/256x256bb.jpg");
+  background-position: top, bottom;
+  background-repeat: no-repeat, repeat-x;
+}
+
+.block4 {
+  height: 550px;
+  width: 550px;
+  margin: 30px 400px;
+  color: white;
+  background-attachment: fixed;
+  background-image: url("https://avatanplus.com/files/resources/original/57a61788b777115660cbee2f.jpg");
+}
+
+#txt1 {
+  text-align: center;
+}
+
+#txt2 {
+  text-align: center;
+}
+
+#text1 {
+  text-align: center;
+  color: white;
+}
+
+#text2 {
+  text-align: center;
+  color: white;
+}
