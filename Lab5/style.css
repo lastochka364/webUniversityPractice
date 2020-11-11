@@ -1,8 +1,20 @@
-body {
-  font-family: 'Montserrat', sans-serif;
+@font-face {
+  font-family: font1;
+  src: url(font1.ttf);
+}
+
+@font-face {
+  font-family: font2;
+  src: url(font2.otf);
+}
+
+@font-face {
+  font-family: font3;
+  src: url(font3.ttf);
 }
 
 .hat {
+  font-family: 'Montserrat', sans-serif;
   background-color: white;
   font-size: 16px;
   font-style: normal;
@@ -58,22 +70,23 @@ body {
 }
 
 .block1 {
+  font-family: 'Creepster', cursive;
   margin-top: 90px;
   background-color: black;
   height: 600px;
 }
 
 #b1_txt1 {
+  font-family: 'Creepster', cursive;
   position: absolute;
   width: 389px;
   height: 59px;
   left: 740px;
   top: 210px;
   color: white;
-  font-size: 40px;
+  font-size: 38px;
   font-style: normal;
-  font-weight: 500;
-  font-size: 40px;
+  font-weight: normal;
   line-height: 160%;
 }
 
@@ -86,7 +99,7 @@ body {
   color: white;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 160%;
 }
 
@@ -99,7 +112,7 @@ body {
   color: white;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 160%;
 }
 
@@ -115,6 +128,7 @@ body {
 }
 
 .block2 {
+  font-family: 'Kurale', serif;
   height: 776px;
   background-color: white;
 }
@@ -140,7 +154,7 @@ body {
   left: 462px;
   top: 955px;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 18px;
   line-height: 160%;
   text-align: center;
@@ -171,6 +185,7 @@ body {
 }
 
 .block3 {
+  font-family: font1;
   background-color: #AD4220;
   height: 600px;
   color: white;
@@ -207,7 +222,7 @@ body {
   width: 410px;
   height: 87px;
   left: 125px;
-  top: 1820px;
+  top: 1840px;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -233,6 +248,7 @@ body {
 }
 
 .block4 {
+  font-family: font2;
   background-color: white;
   height: 600px;
 }
@@ -259,7 +275,7 @@ body {
   top: 2300px;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 22px;
   line-height: 160%;
 }
 
@@ -268,10 +284,10 @@ body {
   width: 425px;
   height: 78px;
   left: 125px;
-  top: 2400px;
+  top: 2440px;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 22px;
   line-height: 160%;
 }
 
@@ -307,6 +323,7 @@ body {
 }
 
 .block5 {
+  font-family: font3;
   color: white;
   background-color: #44484A;
   height: 650px;
@@ -319,7 +336,7 @@ body {
   left: 698px;
   top: 2800px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: normal;
   font-size: 30px;
   line-height: 160%;
 }
@@ -332,7 +349,7 @@ body {
   top: 2900px;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 160%;
 }
 
@@ -344,7 +361,7 @@ body {
   top: 2900px;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 160%;
 }
 
@@ -356,7 +373,7 @@ body {
   top: 3100px;
   font-style: italic;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 160%;
 }
 
